@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+  android:configure="kr.sc.mearyfood2012.FoodWidgetConfigure"
+  android:minWidth="146dip"
+  android:minHeight="146dip"
+  android:updatePeriodMillis="28800000"
+  android:initialLayout="@layout/widgetw">   
+
+</appwidget-provider>

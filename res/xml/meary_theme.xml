@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="MearyTheme">
+		<item name="windowBackground">@drawable/main_title_2_9</item>
+		<item name="panelForegroundColor">#FF7b4d33</item>
+		<item name="panelTextColor">#FFFFD700</item>
+		<item name="menuItemTextColor">?panelForegroundColor</item>
+	</style>
+</resources>

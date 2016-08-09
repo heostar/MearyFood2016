@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.sc.mearyfood2012"
+    android:versionCode="302"
+    android:versionName="3.02" >
+
+    <uses-sdk
+        android:minSdkVersion="5" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".TitlePage"
+            android:label="@string/title_activity_main" 
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".FoodWidgetConfigure"
+            android:label="위젯설정"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".FoodWidget"
+            android:label="메아리학교식단" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="kr.sc.mearyfood2012.ACTION_MANUAL_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mearywidget_info" />
+        </receiver>
+
+        <activity
+            android:name=".WidgetUpdateConfirm"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name=".Information"
+            android:label="앱 안내 및 후기" >
+        </activity>
+        <activity
+            android:name=".MearyFoodWeekly"
+            android:label="이번주 메뉴 보기" >
+        </activity>
+        <activity
+            android:name=".MearyFoodMonthly"
+            android:label="이번달 메뉴 보기" >
+        </activity>
+        <activity
+            android:name=".TommorowMenu"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        
+    </application>
+
+    <uses-permission 
+        android:name="android.permission.INTERNET" >        
+    </uses-permission>
+    <uses-permission 
+        android:name="android.permission.ACCESS_NETWORK_STATE" >        
+    </uses-permission>
+
+</manifest>

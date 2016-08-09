@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:layout_gravity="center"  
+  >
+
+ <ImageView
+    android:layout_height="3dp"
+    android:layout_width="fill_parent"
+    android:layout_weight="0"
+    android:src="#00000000"
+    />
+<FrameLayout 
+	android:id="@+id/widgetFrameLayout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="0px"
+	android:layout_weight="1"
+	>
+<ImageView 
+	android:id="@+id/bGimage" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent" 
+	android:src="@drawable/frame2x2ylw_100"
+	android:clickable="true"
+	android:scaleType="fitXY"
+	android:layout_gravity="center"
+	>
+</ImageView>
+<LinearLayout
+  android:id="@+id/widgetlayout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:layout_gravity="center"  
+  >
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="42dp"
+    android:layout_weight="0"
+    android:text=""/>
+<TextView
+  	android:id="@+id/date"
+  	android:layout_width="fill_parent" 
+  	android:layout_height="0dp"
+  	android:layout_weight="2"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingRight="5dp"
+  	android:gravity="center_vertical|right"
+  	android:textSize="10dp"
+  	android:textColor="#000000"
+	android:background="#10a0a0a0"
+  	
+  	/>
+<TextView
+  	android:id="@+id/menu1"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"  	
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	  	
+  	/>
+<TextView
+  	android:id="@+id/menu2"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	android:background="#10a0a0a0"
+  	
+  	/>
+
+<TextView
+  	android:id="@+id/menu3"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	
+  	/>
+<TextView
+  	android:id="@+id/menu4"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	android:background="#10a0a0a0"
+  	
+  	/>
+<TextView
+  	android:id="@+id/menu5"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	
+  	/>
+<TextView
+  	android:id="@+id/menu6"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	android:background="#10a0a0a0"
+  	
+  	/>
+<TextView
+  	android:id="@+id/menu7"
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="3"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="10dp"
+  	android:paddingLeft="5dp"
+  	android:gravity="center_vertical"
+  	android:textSize="14dp"
+  	android:singleLine="true"
+  	android:textColor="#000000"
+	
+  	/> 	
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="10dp"
+    android:layout_weight="0"
+    android:text=""/> 
+</LinearLayout>
+
+</FrameLayout>
+<ImageView
+    android:layout_height="3dp"
+    android:layout_width="fill_parent"
+    android:layout_weight="0"
+    android:src="#00000000"
+    />
+
+</LinearLayout>

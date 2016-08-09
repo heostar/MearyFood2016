@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Style">
+    	<item>메아리Yellow 100%</item>
+    	<item>메아리Yellow 75%</item>
+    	<item>메아리Yellow 50%</item>
+    	<item>와인Black 100%</item>
+    	<item>와인Black 75%</item>
+    	<item>와인Black 50%</item>
+    	<item>딸기Pink 100%</item>
+    	<item>딸기Pink 75%</item>
+    	<item>딸기Pink 50%</item>
+    	<item>크리스마스White 100%</item>
+    	<item>크리스마스White 75%</item>
+    	<item>크리스마스White 50%</item>
+    	<item>블루베리Purple 100%</item>
+    	<item>블루베리Purple 75%</item>
+    	<item>블루베리Purple 50%</item>
+    	<item>투명White</item>
+    	<item>투명Black</item>
+    </string-array>
+    <string-array name="Uppdate">
+    	<item>위젯 업데이트</item>
+    	<item>내일 식단 보기</item>
+    	<item>앱 실행(최신 식단 다운)</item>    	
+    </string-array>
+</resources>
